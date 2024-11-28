@@ -1,0 +1,50 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-component {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 12px;
+}
+
+video {
+    border: 2px solid red;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-play {
+    background-color: crimson;
+    color: white;
+}
+.btn-pause {
+    background-color: gray;
+    color: black;
+}
+.btn-minimize {
+    background-color: #222222;
+    color: white;
+}
+
+.span-volume {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

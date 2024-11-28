@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESI 9 - WEB 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video width="720" id="myVideo">
+            <source src="/assets/ADS.mp4" type="video/mp4" />
+        </video>
+        <div class="video-component">
+            <button onclick="play()" class="btn btn-play">PLAY</button>
+            <button onclick="pause()" class="btn btn-pause">PAUSE</button>
+            <button onclick="minimize()" class="btn btn-minimize">MINIMIZE</button>
+            <label for="volumeControl">
+                <input type="range" id="volumeControl" min="0" max="100" step="1" value="0">
+                <span class="btn span-volume" id="volumeValue">0%</span>
+            </label>
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
